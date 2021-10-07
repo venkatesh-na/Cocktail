@@ -6,12 +6,12 @@ const Header = ()=>{
             <h1>The<span style = {{color:"green"}}>Cocktail</span>DB</h1>
             <ul>
                 <li>
-                <Link to = "/Cocktail">
+                <Link to = "https://venkatesh-na.github.io/Cocktail/">
                     Home
                 </Link>
                 </li>
                 <li>
-                <Link to = "/about">
+                <Link to = "https://venkatesh-na.github.io/Cocktail/about">
                     About
                 </Link>
                 </li>

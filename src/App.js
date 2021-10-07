@@ -13,12 +13,12 @@ const App = ()=>{
     <div className = "main-container">
       <Router>
        <Switch> 
-      <Route path = "/Cocktail" exact>
+      <Route path = "https://venkatesh-na.github.io/Cocktail/" exact>
           <Header/>
           {details==false ? <Form/> : ""}
           {message ? <h1>No Cocktail Found</h1> : <Items/>}
       </Route>
-      <Route path = "/about">
+      <Route path = "https://venkatesh-na.github.io/Cocktail/about">
         <Header/>
         <About/>
       </Route>
