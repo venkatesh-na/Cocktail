@@ -6,7 +6,7 @@ const Header = ()=>{
             <h1>The<span style = {{color:"green"}}>Cocktail</span>DB</h1>
             <ul>
                 <li>
-                <Link to = "/">
+                <Link to = "/Cocktail">
                     Home
                 </Link>
                 </li>

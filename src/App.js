@@ -13,7 +13,7 @@ const App = ()=>{
     <div className = "main-container">
       <Router>
        <Switch> 
-      <Route path = "/" exact>
+      <Route path = "/Cocktail" exact>
           <Header/>
           {details==false ? <Form/> : ""}
           {message ? <h1>No Cocktail Found</h1> : <Items/>}
